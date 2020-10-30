@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/peter/Documents/visual_odometry/vo_toy/absolute_scale.cpp
+string
+-
+fstream
+-
+iostream
+-
+math.h
+-
+
+/home/peter/Documents/visual_odometry/vo_toy/feature_detection.cpp
+opencv2/features2d/features2d.hpp
+/home/peter/Documents/visual_odometry/vo_toy/opencv2/features2d/features2d.hpp
+
+/home/peter/Documents/visual_odometry/vo_toy/vo.cpp
+opencv2/opencv.hpp
+/home/peter/Documents/visual_odometry/vo_toy/opencv2/opencv.hpp
+feature_detection.cpp
+/home/peter/Documents/visual_odometry/vo_toy/feature_detection.cpp
+absolute_scale.cpp
+/home/peter/Documents/visual_odometry/vo_toy/absolute_scale.cpp
+
