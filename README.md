@@ -1,5 +1,5 @@
 # toy_visual_odometry
-This is a toy visual odometry built for practice purpose. It referred to Avi Sign and GaoXiang's visual odometry code.
+This is a toy visual odometry built for practice purpose. It referred to Dr Gao's "SLAM book" and ORB SLAM design.
 
 Before build,
 please change below paths in the code:
