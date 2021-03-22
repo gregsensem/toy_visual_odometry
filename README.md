@@ -27,6 +27,7 @@ run ./vo
 
 ### example:
 <img src="https://github.com/gregsensem/visual_odometry/raw/master/FAST.png" width="50%" height="50%">
+<img src="https://github.com/gregsensem/visual_odometry/blob/6af1076a14c48512aac5ca9594db6be5442788bc/running.png" width="50%" height="50%">
 
 ### Reference:
 1. "14 Lectures' on SLAM", Gao Xiang
