@@ -1,26 +1,32 @@
 # toy_visual_odometry
-This is a toy visual odometry built for practice purpose. It referred to Dr Gao's "SLAM book" and ORB SLAM design.
+This is a toy visual odometry built for practice purpose. It extracts ORB features from input 
+image frame and do frame by frame feature matching. Then the inlier matched points are found
+and used as input for Fundamental / Essential matrix estimation. Camera's pose is recovered with 
+the Fundamental / Essentail matrix.
 
-Dependencies:
-Dependencies:
+### Dependencies:
 * OpenCV 3.4
 * G2O
 * DBOW2
 
-
-Before build,
+### Before build,
 please change below paths in the code:
 1. dataset path in vo.cpp
 2. camera parameter in vo.cpp
 2. ground truch path in ground_truth_trajectory.cpp
 
-To build:
+### To build:
 1. git clone
 2. cd build
 3. cmake ..
 4. make
 
-To Run:
-./vo
+### To Run:
+run ./vo
 
-![Alt text](https://github.com/gregsensem/visual_odometry/raw/master/FAST.png "Visual Odometry")
+![Alt text](https://github.com/gregsensem/visual_odometry/raw/master/FAST.png | width=300)
+
+### Reference:
+1. "14 Lectures' on SLAM", Gao Xiang
+2. "ORB SLAM2", Raul Mur-Artal
+3. Visual odometry, Avi Sigh
