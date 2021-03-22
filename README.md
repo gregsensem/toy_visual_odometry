@@ -1,8 +1,8 @@
-# toy_visual_odometry
+#Visual_Odometry
 This is a toy visual odometry built for practice purpose. It extracts ORB features from input 
 image frame and do frame by frame feature matching. Then the inlier matched points are found
 and used as input for Fundamental / Essential matrix estimation. Camera's pose is recovered with 
-the Fundamental / Essentail matrix.
+the Fundamental / Essentail matrix. The absolute scale is obtained from ground truth.
 
 ### Dependencies:
 * OpenCV 3.4
