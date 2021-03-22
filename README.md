@@ -8,8 +8,9 @@ the Fundamental / Essentail matrix.
 * OpenCV 3.4
 * G2O
 * DBOW2
+* Cmake 3.5
 
-### Before build,
+### Before build:
 please change below paths in the code:
 1. dataset path in vo.cpp
 2. camera parameter in vo.cpp
@@ -24,7 +25,8 @@ please change below paths in the code:
 ### To Run:
 run ./vo
 
-![Alt text](https://github.com/gregsensem/visual_odometry/raw/master/FAST.png | width=300)
+### example:
+![Alt text](https://github.com/gregsensem/visual_odometry/raw/master/FAST.png){:height="50%" width="50%"}
 
 ### Reference:
 1. "14 Lectures' on SLAM", Gao Xiang
