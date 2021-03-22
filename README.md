@@ -1,6 +1,11 @@
 # toy_visual_odometry
 This is a toy visual odometry built for practice purpose. It referred to Dr Gao's "SLAM book" and ORB SLAM design.
 
+Dependencies:
+*OpenCV 3.4
+*G2O
+*DBOW2
+
 Before build,
 please change below paths in the code:
 1. dataset path in vo.cpp
