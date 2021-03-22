@@ -26,7 +26,7 @@ please change below paths in the code:
 run ./vo
 
 ### example:
-![Alt text](https://github.com/gregsensem/visual_odometry/raw/master/FAST.png){:height="50%" width="50%"}
+<img src="https://github.com/gregsensem/visual_odometry/raw/master/FAST.png" width="50%" height="50%">
 
 ### Reference:
 1. "14 Lectures' on SLAM", Gao Xiang
